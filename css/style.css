@@ -3,19 +3,19 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    box-sizing: border-box;
     font-family: "Open Sans";
 }
 
 /*Header*/
 
 header {
-
+    position: relative;
+    overflow: hidden;
 }
 
     header img {
         width: 100%;
-        height: auto;
         z-index: 1;
     }
 
@@ -31,6 +31,10 @@ header {
         font-size: 24pt;
         line-height: 30px;
         color: #ff8a00;
+    }
+
+    #logo p:first-child {
+        letter-spacing: 3px;
     }
 
     #logo img {
@@ -62,28 +66,199 @@ header {
 }
 
 #headertext {
-    width: 384px;
+    width: 700px;
     height: 140px;
-    position: absolute;
-    top: 300px;
-    right: 150px;
+    position: relative;
+    z-index: 6;
+    margin: 0 auto;
+    bottom: 450px;
+    left: 450px;
 }
 
     #headertext p {
-        font-size: 26pt;
+        font-size: 24pt;
         color: #ffffff;
         font-weight: 400;
     }
 
 #button-back {
-
+    height: 54px;
+    width: 100px;
+    background-color: rgba(255, 138, 0, 0.5);
+    position: relative;
+    margin: 0 auto;
+    z-index: 4;
+    bottom: 354px;
+    right: 50px;
 }
 
 #button {
     height: 55px;
     width: 200px;
     border: solid #ffffff;
-    position: absolute;
-    top: 70%;
-    left: 43%;
+    position: relative;
+    margin: 0 auto;
+    z-index: 5;
+    bottom: 300px
 }
+
+    #button p {
+        position: relative;
+        margin: 9px 0 0 10px;
+        z-index: 10;
+        font-size: 16pt;
+        color: #ffffff;
+    }
+
+/*Header End*/
+
+/*Banner*/
+
+#banner {
+    width: 100%;
+    height: 350px;
+    background-color: #ff8a00;
+    z-index: 3;
+    position: relative;
+    bottom: 778px;
+}
+
+#banner_text {
+    margin: 0 auto;
+    width: 600px;
+}
+
+#banner_text p {
+    padding-top: 108px;
+    color: #ffffff;
+    font-size: 20pt;
+    font-weight: 100;
+    line-height: 34px;
+}
+
+/*Banner End*/
+
+/*Line*/
+
+#line {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0,0,0, 0.5);
+    position: relative;
+    bottom: 783px;
+    z-index: 11;
+}
+
+#line1 {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0,0,0, 0.5);
+    position: relative;
+    bottom: 361px;
+    z-index: 12;
+}
+
+#line2 {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0,0,0, 0.5);
+    position: relative;
+    bottom: 788px;
+    z-index: 14;
+}
+
+#line3 {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0,0,0, 0.5);
+    position: relative;
+    bottom: 371px;
+    z-index: 15;
+}
+
+/*Line End*/
+
+/*Clear*/
+
+#clear {
+    clear: both;
+}
+
+/*Clear End*/
+
+/*sommerhuse*/
+
+#sommerhuse {
+
+}
+
+#sommerhuse_header {
+    width: 100%;
+    height: 250px;
+    background-color: #ee3c30;
+    position: relative;
+    bottom: 783px;
+}
+
+#sommerhuse_header1 {
+    width: 100%;
+    height: 250px;
+    background-color: #f8ba33;
+    position: relative;
+    bottom: 793px;
+}
+
+#s_headline {
+
+}
+
+    #s_headline p {
+        color: #ffffff;
+        font-size: 30pt;
+        padding: 20px 0 0 20px;
+    }
+
+#citat {
+    width: 800px;
+    margin: 0 auto;
+}
+
+    #citat p {
+        color: #ffffff;
+        font-size: 14pt;
+        padding: 40px 0 0 20px;
+    }
+
+.huse {
+    width: 50%;
+    position: relative;
+    bottom: 783px;
+    float: left;
+}
+
+    .huse img {
+        width: 100%;
+    }
+
+.huse1 {
+    width: 50%;
+    position: relative;
+    bottom: 793px;
+    float: left;
+}
+
+.huse1 img {
+    width: 100%;
+}
+
+
+   /* #overlay {
+        width: 50%;
+        height: 422px;
+        background-color: rgba(255, 138, 0, 0.5);
+        position: relative;
+        z-index: 13;
+        bottom: 427px;
+    }  */
+
+/*sommerhuse End*/
