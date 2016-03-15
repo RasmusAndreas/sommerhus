@@ -176,6 +176,33 @@ header {
     z-index: 15;
 }
 
+#line4 {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0,0,0, 0.5);
+    position: relative;
+    bottom: 798px;
+    z-index: 14;
+}
+
+#line5 {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0,0,0, 0.5);
+    position: relative;
+    bottom: 376px;
+    z-index: 15;
+}
+
+#line6 {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0,0,0, 0.5);
+    position: relative;
+    bottom: 803px;
+    z-index: 15;
+}
+
 /*Line End*/
 
 /*Clear*/
@@ -208,6 +235,14 @@ header {
     bottom: 793px;
 }
 
+#sommerhuse_header2 {
+    width: 100%;
+    height: 250px;
+    background-color: #ff8a00;
+    position: relative;
+    bottom: 798px;
+}
+
 #s_headline {
 
 }
@@ -216,6 +251,7 @@ header {
         color: #ffffff;
         font-size: 30pt;
         padding: 20px 0 0 20px;
+        z-index: 17;
     }
 
 #citat {
@@ -251,6 +287,17 @@ header {
     width: 100%;
 }
 
+.huse2 {
+    width: 50%;
+    position: relative;
+    bottom: 798px;
+    float: left;
+}
+
+.huse2 img {
+    width: 100%;
+}
+
 
    /* #overlay {
         width: 50%;
@@ -262,3 +309,18 @@ header {
     }  */
 
 /*sommerhuse End*/
+
+/*Footer*/
+
+#footerimage {
+    width: 100%;
+    position: relative;
+    bottom: 803px;
+    z-index: 16;
+}
+
+    #footerimage img {
+        width: 100%;
+    }
+
+/*Footer End*/
